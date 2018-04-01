@@ -1,0 +1,26 @@
+{
+  "name": "because",
+  "version": "0.0.0",
+  "description": "A simple documentation approach",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webextensions/because.git"
+  },
+  "keywords": [
+    "because",
+    "simple",
+    "documentation",
+    "approach",
+    "javascript",
+    "node",
+    "js",
+    "nodejs"
+  ],
+  "author": "Priyank Parashar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webextensions/because/issues"
+  },
+  "homepage": "https://github.com/webextensions/because#readme"
+}
