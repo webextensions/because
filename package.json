@@ -3,6 +3,14 @@
   "version": "0.0.1",
   "description": "A simple documentation approach",
   "main": "index.js",
+  "bin": {
+    "because": "./index.js"
+  },
+  "scripts": {
+    "postinstall": "echo \"\n====\nIf you are installing this package locally, for syncing your files/directories between because/ directory and node_modules/because/<symbolic-links>, execute\n    $ node_modules/because/index.js --setup\n====\n\"",
+    "lint": "./node_modules/.bin/eslint .",
+    "test": "npm run lint"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/webextensions/because.git"
@@ -22,5 +30,14 @@
   "bugs": {
     "url": "https://github.com/webextensions/because/issues"
   },
-  "homepage": "https://github.com/webextensions/because#readme"
+  "homepage": "https://github.com/webextensions/because#readme",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "eslint": "^4.19.1",
+    "globby": "^8.0.1",
+    "ls": "^0.2.1",
+    "node-editorconfig": "^0.1.0",
+    "note-down": "^0.1.0",
+    "yargs": "^11.0.0"
+  }
 }
