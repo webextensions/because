@@ -32,13 +32,13 @@
   },
   "homepage": "https://github.com/webextensions/because#readme",
   "dependencies": {
-    "chalk": "^2.4.1",
-    "globby": "^8.0.1",
+    "chalk": "^2.4.2",
+    "globby": "^9.2.0",
     "ls": "^0.2.1",
     "note-down": "^0.1.0",
-    "yargs": "^12.0.5"
+    "yargs": "^13.2.4"
   },
   "devDependencies": {
-    "eslint": "^5.11.0"
+    "eslint": "^5.16.0"
   }
 }
