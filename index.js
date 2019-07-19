@@ -11,7 +11,7 @@ const
 const ls = require('ls');
 
 const logger = require('note-down');
-logger.option('showLogLine', false, false); // Do not show which line in which file initiated the console log entry
+logger.removeOption('showLogLine'); // Do not show which line in which file initiated the console log entry
 
 // https://stackoverflow.com/questions/31060650/how-to-detect-if-the-current-npm-package-is-global/31061337#31061337
 const isPackageBeingGloballyInstalled = !!process.env.npm_config_global;
