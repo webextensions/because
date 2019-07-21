@@ -1,6 +1,6 @@
 {
   "name": "because",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "A simple documentation approach",
   "main": "index.js",
   "bin": {
