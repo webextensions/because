@@ -7,7 +7,6 @@
     "because": "./index.js"
   },
   "scripts": {
-    "postinstall": "echo \"\n====\nIf you are installing this package locally, for syncing your files/directories between because/ directory and node_modules/because/<symbolic-links>, execute\n    $ node_modules/because/index.js --setup\n====\n\"",
     "lint": "./node_modules/.bin/eslint .",
     "test": "npm run lint"
   },
